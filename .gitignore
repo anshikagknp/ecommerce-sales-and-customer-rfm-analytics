@@ -1,0 +1,23 @@
+# Mac OS
+.DS_Store
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.idea/
+.vscode/
+
+# Large data exports (keep raw xlsx or git-lfs if needed)
+data/processed/*.csv
